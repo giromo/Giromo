@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+
+<div align="center">
+  <img height="400" src="https://github.com/giromo/Giromo/blob/main/Schwarz%20und%20Neon%20Rosa%20Cool%20und%20Funky%20Spiele%20Logo.gif"  />
+</div>
