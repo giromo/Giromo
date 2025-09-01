@@ -1,0 +1,29 @@
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: '0 0 * * *' # هر روز اجرا بشه
+  workflow_dispatch: # امکان اجرای دستی
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Generate snake animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: giromo
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=00FF7F
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
