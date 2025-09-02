@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 
 <div align="center">
-  <img height="400" src="https://github.com/giromo/Giromo/blob/main/Schwarz%20und%20Neon%20Rosa%20Cool%20und%20Funky%20Spiele%20Logo.gif"  />
+  <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
 </div>
 
 
