@@ -16,6 +16,28 @@ Here are some ideas to get you started:
 -->
 
 
+<table>
+  <tr>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=radical">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=github_light">
+        <img alt="آمار GitHub" src="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=github_light" width="100%">
+      </picture>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=radical">
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=github_light">
+        <img alt="زبان‌های برتر" src="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=github_light" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
+
+
+
+
 <div align="center">
   <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
 </div>
