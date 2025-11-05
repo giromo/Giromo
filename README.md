@@ -36,14 +36,15 @@ Here are some ideas to get you started:
 </table>
 
 
-
-
-<div align="center">
-  <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
-</div>
-
 <div align="center">
 
-![GitHub Dashboard Stats](https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=auto)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=light">
+  <img src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=auto" 
+       alt="GitHub Dashboard" 
+       width="100%" 
+       style="max-width: 800px; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.2); filter: brightness(0.88) contrast(1.15);">
+</picture>
 
 </div>
