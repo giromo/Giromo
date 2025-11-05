@@ -42,18 +42,19 @@ Here are some ideas to get you started:
   <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
 </div>
 
-
-<!-- OSS Insight GitHub Stats - Centered -->
+<!-- OSS Insight GitHub Stats - Auto + Real Dark (ID: 227433395) -->
 <div align="center">
 
 <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=227433395" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=dark" width="771" height="auto">
-    <img alt="Dashboard stats of GitHub User (ID: 227433395)" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=light" width="771" height="auto" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=dark">
+    <source media="(prefers-color-scheme: light)" 
+            srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=light">
+    <img alt="Dashboard stats (ID: 227433395)" 
+         src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=auto" 
+         style="max-width: 100%; width: 771px; height: auto; border-radius: 12px; 
+                box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+                filter: brightness(0.92) contrast(1.1);">
   </picture>
 </a>
-
-<br/>
-<small><em>Made with <a href="https://ossinsight.io/" target="_blank">OSS Insight</a></em></small>
-
-</div>
