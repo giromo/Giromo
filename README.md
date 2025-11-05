@@ -14,9 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
 <div align="center">
-  <img height="400" src="https://github.com/Giromo/Argh94/blob/main/images/.gif"  />
+  <img height="400" src="https://github.com/giromo/Giromo/blob/main/9df.gif"  />
 </div>
 
 <table>
