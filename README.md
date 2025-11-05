@@ -38,6 +38,15 @@ Here are some ideas to get you started:
 </table>
 
 
+<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
+</picture>
+
+
+
 <div align="center">
 
 <picture>
