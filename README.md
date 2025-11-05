@@ -50,12 +50,12 @@ Here are some ideas to get you started:
   <img alt="Snake animation" src="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
 </picture>
 
-<!-- OSS Insight GitHub Stats for @giromo -->
-<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=63475080" target="_blank" style="display: block" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=63475080&image_size=auto&color_scheme=dark" width="771" height="auto">
-    <img alt="Dashboard stats of @giromo" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=63475080&image_size=auto&color_scheme=light" width="771" height="auto">
-  </picture>
-</a>
+<div align="center">
+  <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=63475080" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=63475080&image_size=auto&color_scheme=dark">
+      <img alt="GitHub Stats - @giromo" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=63475080&image_size=auto&color_scheme=light">
+    </picture>
+  </a>
+</div>
 
-<!-- Made with [OSS Insight](https://ossinsight.io/) -->
