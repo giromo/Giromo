@@ -40,13 +40,15 @@ Here are some ideas to get you started:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" 
-          srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF5555&text_color=FFFFFF&icon_color=FF5555">
+          srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=dark">
   <source media="(prefers-color-scheme: light)" 
-          srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=github_light&hide_border=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=github_light&hide_border=true" 
-       alt="GitHub Stats" 
+          srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=light">
+  <img src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=auto" 
+       alt="GitHub Dashboard" 
        width="100%" 
-       style="max-width: 600px; border-radius: 16px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+       style="max-width: 800px; height: auto; border-radius: 16px; 
+              box-shadow: 0 8px 32px rgba(0,0,0,0.3); 
+              filter: brightness(0.78) contrast(1.3) saturate(0.7) hue-rotate(195deg);">
 </picture>
 
 </div>
