@@ -47,10 +47,15 @@ Here are some ideas to get you started:
 
 <a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=227433395" target="_blank">
   <picture>
+    <!-- حالت تیره: زمینه تیره‌تر (نزدیک به مشکی) -->
     <source media="(prefers-color-scheme: dark)" 
             srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=dark">
+    
+    <!-- حالت روشن: زمینه سفید -->
     <source media="(prefers-color-scheme: light)" 
             srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=light">
+    
+    <!-- تصویر اصلی با فیلتر هوشمند -->
     <img alt="Dashboard stats (ID: 227433395)" 
          src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=227433395&image_size=auto&color_scheme=auto" 
          style="max-width: 100%; width: 771px; height: auto; border-radius: 12px; 
@@ -58,3 +63,5 @@ Here are some ideas to get you started:
                 filter: brightness(0.92) contrast(1.1);">
   </picture>
 </a>
+
+</div>
