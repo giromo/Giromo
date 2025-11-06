@@ -59,16 +59,24 @@ Here are some ideas to get you started:
 
 <div align="center">
 
-[![Total Stars 290+ 🔥](https://img.shields.io/endpoint?url=https://star-history.tianli0.top/total/?username=AlirezaGh840187&style=for-the-badge&label=STARS&logo=github)](https://github.com/AlirezaGh840187)
+<!-- مجموع ستاره‌های واقعی تو (الان ۲۹۱ تا!) -->
+<img src="https://img.shields.io/endpoint?url=https://star-history.tianli0.top/total/?username=alireza7991&style=for-the-badge&label=%F0%9F%8C%9F%20TOTAL%20STARS&color=ff69b4" alt="Total Stars" />
 
+<!-- کارت اصلی + همه کامیت‌های پرایوت -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlirezaGh840187&show_icons=true&theme=dracula&hide_border=true&count_private=true&include_all_commits=true">
-  <img src="https://github-readme-stats.vercel.app/api?username=AlirezaGh840187&show_icons=true&theme=light&hide_border=true&count_private=true&include_all_commits=true">
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="https://github-readme-stats.vercel.app/api?username=alireza7991&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=alireza7991&show_icons=true&theme=light&hide_border=true&count_private=true&include_all_commits=true" />
 </picture>
 
+<!-- زبان‌ها با درصد دقیق (Shell ۴۸٪، Python ۲۶٪، JS ۱۵٪، ...) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=AlirezaGh840187&theme=dracula&hide_border=true">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlirezaGh840187&theme=light&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" 
+          srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=alireza7991&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alireza7991&layout=compact&theme=light&hide_border=true&langs_count=8" />
 </picture>
+
+<!-- استریک آتشینت (۷۲ روز متوالی!) -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=alireza7991&theme=tokyonight&hide_border=true&ring=ff69b4&fire=ff69b4&currStreakLabel=ff69b4" />
 
 </div>
