@@ -14,6 +14,15 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
+</picture>
+
+
+
 <div align="center">
   <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
 </div>
@@ -38,12 +47,6 @@ Here are some ideas to get you started:
 </table>
 
 
-<br clear="both">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/giromo/giromo/output/snake.svg">
-</picture>
 
 
 
