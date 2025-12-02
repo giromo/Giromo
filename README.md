@@ -29,6 +29,9 @@ Here are some ideas to get you started:
 
 
 
+<table>
+  <tr>
+    
    <td align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
@@ -37,7 +40,8 @@ Here are some ideas to get you started:
       </picture>
     </td>
 
-  <td align="center">
+   <!-- Top Languages با donut-vertical -->
+   <td align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=dark&hide_border=true">
         <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=light&hide_border=true">
