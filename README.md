@@ -47,20 +47,23 @@ Here are some ideas to get you started:
 </table>
 
 
-<!-- GitHub Stats -->
-<td>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true">
-    <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true" width="100%">
-  </picture>
-</td>
+<table>
+  <tr>
+    <!-- GitHub Stats -->
+    <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true&hide_title=false">
+        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&hide_title=false">
+        <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&hide_title=false" width="100%">
+      </picture>
+    </td>
 
-<!-- Top Languages as Donut (بهترین ظاهر) -->
-<td>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=dark&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=light&hide_border=true">
-    <img alt="Giromo's Top Languages" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=light&hide_border=true" width="100%">
-  </picture>
-</td>
+   <td align="center">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=dark&hide_border=true">
+        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=light&hide_border=true">
+        <img alt="Giromo's Top Languages" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=light&hide_border=true" width="100%">
+      </picture>
+    </td>
+  </tr>
+</table>
