@@ -47,48 +47,20 @@ Here are some ideas to get you started:
 </table>
 
 
-
-<!-- GitHub Stats + Top Languages using beautiful-github-homepage -->
-<table>
-  <tr>
-    <!-- GitHub Stats -->
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&show_icons=true&theme=dark&hide_border=true">
-        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&show_icons=true&theme=light&hide_border=true">
-        <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&show_icons=true&theme=light&hide_border=true" width="100%">
-      </picture>
-    </td>
-
-    <!-- Top Languages -->
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&theme=dark&hide_border=true">
-        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&theme=light&hide_border=true">
-        <img alt="Giromo's Top Languages" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&theme=light&hide_border=true" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
-
-<!-- اختیاری: WakaTime Stats (اگه می‌خوای اضافه کنی) -->
-<!--
-<p align="center">
+<!-- GitHub Stats -->
+<td>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/wakatime?username=Giromo&theme=dark&layout=compact">
-    <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/wakatime?username=Giromo&theme=light&layout=compact">
-    <img alt="WakaTime Stats" src="https://beautiful-github-homepage.vercel.app/api/wakatime?username=Giromo&theme=light&layout=compact">
+    <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true">
+    <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true" width="100%">
   </picture>
-</p>
--->
+</td>
 
-
-
-
-
-
-
-
-
-
-
+<!-- Top Languages as Donut (بهترین ظاهر) -->
+<td>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=dark&hide_border=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=light&hide_border=true">
+    <img alt="Giromo's Top Languages" src="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut&theme=light&hide_border=true" width="100%">
+  </picture>
+</td>
