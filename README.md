@@ -49,16 +49,16 @@ Here are some ideas to get you started:
 
 <table>
   <tr>
-    <!-- GitHub Stats -->
+    <!-- کارت پیشرفته‌تر GitHub Stats (شامل PR merged, reviews و ...) -->
     <td align="center">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true&hide_title=false">
-        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&hide_title=false">
-        <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&hide_title=false" width="100%">
+        <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
+        <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
+        <img alt="Giromo's GitHub Stats" src="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" width="100%">
       </picture>
     </td>
 
-   <td align="center">
+  <td align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=dark&hide_border=true">
         <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api/top-langs?username=Giromo&layout=donut-vertical&theme=light&hide_border=true">
