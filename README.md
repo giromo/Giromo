@@ -27,30 +27,9 @@ Here are some ideas to get you started:
   <img height="400" src="https://github.com/giromo/Giromo/blob/main/110318584-81067880-7fc2-11eb-8391-152d308e7f2b%20(1).gif"  />
 </div>
 
-<table>
-  <tr>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=dark&cache_seconds=86400&hide_border=true">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=transparent&cache_seconds=86400&hide_border=true">
-        <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Giromo&show_icons=true&theme=transparent&cache_seconds=86400&hide_border=true" width="100%">
-      </picture>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=dark&cache_seconds=86400&hide_border=true">
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=transparent&cache_seconds=86400&hide_border=true">
-        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=Giromo&show_icons=true&theme=transparent&cache_seconds=86400&hide_border=true" width="100%">
-      </picture>
-    </td>
-  </tr>
-</table>
 
 
-<table>
-  <tr>
-    <!-- کارت پیشرفته‌تر GitHub Stats (شامل PR merged, reviews و ...) -->
-    <td align="center">
+   <td align="center">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=dark&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
         <source media="(prefers-color-scheme: light)" srcset="https://beautiful-github-homepage.vercel.app/api?username=Giromo&theme=light&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage">
