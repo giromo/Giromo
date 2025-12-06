@@ -1,0 +1,183 @@
+html
+
+<!-- Chart -->
+<div id="chartContainer" class="hidden mt-12 glass-card p-6 rounded-2xl">
+    <h3 class="text-2xl font-bold text-center mb-6 text-cyan-300">DNS Speed Comparison</h3>
+    <div class="chart-container">
+        <canvas id="dnsChart"></canvas>
+    </div>
+</div>
+
+منطق js
+function updateChart() {
+    const chartContainer = document.getElementById('chartContainer');
+    const canvas = document.getElementById('dnsChart');
+    const ctx = canvas.getContext('2d');
+    
+    const validData = chartData.filter(item => item.avg !== null).sort((a, b) => a.avg - b.avg);
+    
+    if (validData.length === 0) return;
+
+    const minHeight = 300;
+    const maxHeight = 800;
+    const heightPerServer = 35;
+    const dynamicHeight = Math.max(minHeight, Math.min(maxHeight, validData.length * heightPerServer + 100));
+    
+    const container = chartContainer.querySelector('.chart-container');
+    container.style.height = `${dynamicHeight}px`;
+
+    chartContainer.classList.remove('hidden');
+
+    if (dnsChart) {
+        dnsChart.destroy();
+    }
+
+    const minValue = Math.min(...validData.map(item => item.avg));
+    const maxValue = Math.max(...validData.map(item => item.avg));
+    const scaleMin = Math.max(0, minValue * 0.7);
+
+    dnsChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: validData.map(item => item.name),
+            datasets: [{
+                label: 'Average Response Time (ms)',
+                data: validData.map(item => item.avg),
+                backgroundColor: validData.map(item => getPerformanceColor(item.avg, validData)),
+                borderColor: validData.map(item => getPerformanceColor(item.avg, validData, true)),
+                borderWidth: 1
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                intersect: false,
+                mode: 'index'
+            },
+            plugins: {
+                legend: {
+                    display: false
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            const server = validData[context.dataIndex];
+                            return [
+                                `Average: ${server.avg.toFixed(2)}ms`,
+                                `Min: ${server.min?.toFixed(2) || 'N/A'}ms`,
+                                `Max: ${server.max?.toFixed(2) || 'N/A'}ms`
+                            ];
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    min: scaleMin,
+                    title: {
+                        display: true,
+                        text: 'Response Time (ms)'
+                    },
+                    ticks: {
+                        callback: function(value) {
+                            return value.toFixed(0) + 'ms';
+                        }
+                    }
+                },
+                y: {
+                    title: {
+                        display: window.innerWidth >= 768,
+                        text: 'DNS Servers (Slowest to Fastest)'
+                    },
+                    ticks: {
+                        maxRotation: 0,
+                        font: {
+                            size: 11
+                        }
+                    },
+                    categoryPercentage: 0.8,
+                    barPercentage: 0.6
+                }
+            },
+            elements: {
+                bar: {
+                    borderWidth: 1
+                }
+            },
+            layout: {
+                padding: {
+                    left: 20,
+                    right: 20,
+                    top: 15,
+                    bottom: 15
+                }
+            }
+        }
+    });
+}
+
+
+
+تابع 
+
+function updateChartWithData(server) {
+    const existingIndex = chartData.findIndex(item => item.name === server.name);
+    const serverInfo = {
+        name: server.name,
+        avg: server.speed.avg !== 'Unavailable' ? server.speed.avg : null,
+        min: server.speed.min !== 'Unavailable' ? server.speed.min : null,
+        max: server.speed.max !== 'Unavailable' ? server.speed.max : null
+    };
+
+    if (existingIndex === -1) {
+        chartData.push(serverInfo);
+    } else {
+        chartData[existingIndex] = serverInfo;
+    }
+
+    updateChart();
+}
+
+
+تابع
+
+function getPerformanceColor(responseTime, allData, border = false) {
+    if (!allData || allData.length === 0) return border ? '#22c55e' : '#22c55e80';
+    
+    const validTimes = allData.map(d => d.avg).filter(t => t !== null);
+    const minTime = Math.min(...validTimes);
+    const maxTime = Math.max(...validTimes);
+    
+    if (minTime === maxTime) return border ? '#22c55e' : '#22c55e80';
+    
+    const normalized = (responseTime - minTime) / (maxTime - minTime);
+    
+    let r, g, b;
+    if (normalized <= 0.5) {
+        r = Math.round(255 * (normalized * 2));
+        g = 255;
+        b = 0;
+    } else {
+        r = 255;
+        g = Math.round(255 * (2 - normalized * 2));
+        b = 0;
+    }
+    
+    const alpha = border ? '' : '80';
+    return `#${r.toString(16).padStart(2, '0')}${g.toString(16).padStart(2, '0')}${b.toString(16).padStart(2, '0')}${alpha}`;
+}
+
+داده های نمودار
+
+let dnsChart;
+let chartData = [];
+
+این هم فراخوانی ها
+
+function updateResult(server) {
+    // ... (قسمت ساخت یا به‌روزرسانی سطر جدول)
+    // ...
+    updateChartWithData(server);
+}
