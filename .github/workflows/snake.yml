@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: '0 */8 * * *'     # هر ۸ ساعت یکبار (برای refresh سریع‌تر)
+    - cron: '0 */6 * * *'     # هر ۶ ساعت
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -19,8 +19,9 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Clean old snake files
-        run: rm -rf dist/
+      # ←←← مهم: پاک کردن کامل فایل‌های قبلی برای جلوگیری از cache
+      - name: Clean old files
+        run: rm -rf dist/ && mkdir -p dist
 
       - name: Generate snake animation
         uses: Platane/snk@v3.5.0
