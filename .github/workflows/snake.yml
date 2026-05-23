@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # هر روز ساعت ۰۰:۰۰
+    - cron: '0 0 * * *'      # هر روز
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -26,9 +26,11 @@ jobs:
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark&color_snake=00FF7F
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v5    
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
