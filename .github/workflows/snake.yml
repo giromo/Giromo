@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: '0 0 * * *'    
+    - cron: '0 0 * * *'    # هر روز ساعت ۰۰:۰۰
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 1
 
       - name: Generate snake animation
-        uses: Platane/snk@v3.5.0     
+        uses: Platane/snk@v3.5.0
         with:
           github_user_name: giromo
           outputs: |
@@ -28,7 +28,7 @@ jobs:
             dist/snake-dark.svg?palette=github-dark&color_snake=00FF7F
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5    
         with:
           target_branch: output
           build_dir: dist
