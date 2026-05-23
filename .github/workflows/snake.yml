@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: '0 0 * * *'      # هر روز
+    - cron: '0 */8 * * *'     # هر ۸ ساعت یکبار (برای refresh سریع‌تر)
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -19,6 +19,9 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Clean old snake files
+        run: rm -rf dist/
+
       - name: Generate snake animation
         uses: Platane/snk@v3.5.0
         with:
@@ -27,7 +30,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark&color_snake=00FF7F
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v5
